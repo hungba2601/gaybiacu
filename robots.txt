@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gaybiacu.vercel.app/sitemap.xml
+Sitemap: https://hungba2601.github.io/gaybiacu/sitemap.xml
