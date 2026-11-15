@@ -1,0 +1,415 @@
+a.contact-ozee-ads {
+    display: flex !important;
+    text-decoration: none !important;
+    background-color: #0054A6;
+    padding: 0px 15px 0px 0px;
+    border-radius: 22px 15px 15px 17px;
+    border: 5px solid #F7941E;
+}
+div.contact-ozee-opt {
+    position: fixed;
+    left: 15px;
+    bottom: 40vh;
+    z-index: 999;
+    border-right: 0;
+}
+div#contact-ozee-right {
+    position: fixed;
+    left: 0;
+    right: auto;
+    bottom: 50px;
+    z-index: 999;
+    border-right: 0;
+/*     width: 70px;
+    background-color: #fff; */
+    padding: 10px 15px 10px 5px;
+    box-sizing: border-box;
+}
+div#contact-ozee-right.contact-ozee-opt .item-opt-contact {
+    margin-right: 0;
+    background-color: transparent;
+    border: 0;
+	margin-bottom: 25px;
+    margin-left: 15px;
+}
+div.contact-ozee-opt .item-opt-contact {
+    background-color: #336666;
+    position: relative;
+    border-radius: 17px;
+}
+div#contact-ozee-right .item-opt-contact a.contact-ozee-ads span {
+    font-size: 0.8em;
+    color: #222;
+}
+div#contact-ozee-right .item-opt-contact a.contact-ozee-ads img {
+    width: 59px;
+    margin: auto;
+    margin-top: -15px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #cdcdcd;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    margin-left: -13px;
+    margin-bottom: -7px;
+}
+div#contact-ozee-right.contact-ozee-opt .item-opt-contact.call-btn-contact a.contact-ozee-ads img {
+    background-color: white;
+    }
+.item-opt-contact:hover img {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transition: all 0.3s ease;
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.5) skew(1deg);
+        -webkit-opacity:.1
+    }
+
+    30% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        -webkit-opacity:.5
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        -webkit-opacity:.1
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        opacity:.2
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity:0;
+        -webkit-transform:translate3d(100%,0,0);
+        -ms-transform:translate3d(100%,0,0);
+        transform:translate3d(100%,0,0)
+    }
+
+    100% {
+        opacity:1;
+        -webkit-transform:none;
+        -ms-transform:none;
+        transform:none
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity:0;
+        -webkit-transform:translate3d(100%,0,0);
+        -ms-transform:translate3d(100%,0,0);
+        transform:translate3d(100%,0,0)
+    }
+
+    100% {
+        opacity:1;
+        -webkit-transform:none;
+        -ms-transform:none;
+        transform:none
+    }
+}
+
+@-webkit-keyframes fadeOutRight {
+    0% {
+        opacity:1
+    }
+
+    100% {
+        opacity:0;
+        -webkit-transform:translate3d(100%,0,0);
+        -ms-transform:translate3d(100%,0,0);
+        transform:translate3d(100%,0,0)
+    }
+}
+
+@keyframes fadeOutRight {
+    0% {
+        opacity:1
+    }
+
+    100% {
+        opacity:0;
+        -webkit-transform:translate3d(100%,0,0);
+        -ms-transform:translate3d(100%,0,0);
+        transform:translate3d(100%,0,0)
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.5) skew(1deg);
+        transform:rotate(0) scale(.5) skew(1deg);
+        opacity:.1
+    }
+
+    30% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.5
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg);
+        opacity:.1
+    }
+}
+
+@keyframes phonering-alo-circle-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.5) skew(1deg);
+        transform:rotate(0) scale(.5) skew(1deg);
+        opacity:.1
+    }
+
+    30% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.5
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg);
+        opacity:.1
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg);
+        opacity:.2
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+}
+
+@keyframes phonering-alo-circle-fill-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg);
+        opacity:.2
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(.7) skew(1deg);
+        transform:rotate(0) scale(.7) skew(1deg);
+        opacity:.2
+    }
+}
+
+@-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+        transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+        transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+        transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+        transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@keyframes phonering-alo-circle-img-anim {
+    0% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    10% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+        transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    20% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+        transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    30% {
+        -webkit-transform:rotate(-25deg) scale(1) skew(1deg);
+        transform:rotate(-25deg) scale(1) skew(1deg)
+    }
+
+    40% {
+        -webkit-transform:rotate(25deg) scale(1) skew(1deg);
+        transform:rotate(25deg) scale(1) skew(1deg)
+    }
+
+    50% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+
+    100% {
+        -webkit-transform:rotate(0) scale(1) skew(1deg);
+        transform:rotate(0) scale(1) skew(1deg)
+    }
+}
+div#contact-ozee-right .item-opt-contact a.contact-ozee-ads span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+	color: white !important;
+    padding: 5px 0px 7px 5px;
+    font-weight: 500 !important;
+    font-size: 17px !important;
+}
+@media (max-width: 767px){
+    a.contact-ozee-ads {
+		background-color: unset !important;
+		border: none !important;
+	}
+	a.contact-ozee-ads span {
+		display: none !important;
+	}
+	a.contact-ozee-ads img {
+		margin-bottom: 10px !important;
+		width: 80px !important;
+	}
+/*     div.contact-ozee-opt{
+        display: none;
+    }
+    div#contact-ozee-right.contact-ozee-opt .item-opt-contact {
+       background-color: transparent;
+       border: 0;
+       width: 19%;
+       text-align: center;
+   }
+    div#contact-ozee-right.contact-ozee-opt a.contact-ozee-ads img {
+        margin-top: -20px;
+        margin-bottom: 0;
+        width: 45px;
+        max-width: 55% !important;
+    }
+    div#contact-ozee-right.contact-ozee-opt .item-opt-contact.call-btn-contact {
+        width: 24% !important;
+    }
+     div#contact-ozee-right.contact-ozee-opt .item-opt-contact.call-btn-contact a.contact-ozee-ads img {
+        width: 80px !important;
+        margin-top: -40px !important;
+        max-width: 80% !important;
+        background-color: #138311;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+   div#contact-ozee-right {
+	   	align-items: center;
+    	justify-content: center;
+        bottom: 0;
+        display: flex;
+        right: 0;
+        left: 0;
+        width: 100%;
+        padding-bottom: 5px;
+        background-color: #fff;
+    }
+    div#contact-ozee-right .item-opt-contact a.contact-ozee-ads span {
+        color: #222;
+        text-align: center;
+        font-size: 0.9em;
+        width: 100%;
+        display: inline-block;
+    }
+    div.contact-ozee-opt .item-opt-contact .item-info-contact a.contact-ozee-ads img {
+        width: 35px;
+    } */
+
+}
